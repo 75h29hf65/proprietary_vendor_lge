@@ -18,6 +18,10 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/lge/judypn
 
 PRODUCT_COPY_FILES += \
+    vendor/lge/judypn/proprietary/lib/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib/fm_helium.so \
+    vendor/lge/judypn/proprietary/lib/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfm-hci.so \
+    vendor/lge/judypn/proprietary/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/fm_helium.so \
+    vendor/lge/judypn/proprietary/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfm-hci.so \
     vendor/lge/judypn/proprietary/product/lib/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.qseecom@1.0.so \
     vendor/lge/judypn/proprietary/product/lib64/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.qseecom@1.0.so \
     vendor/lge/judypn/proprietary/vendor/bin/chre:$(TARGET_COPY_OUT_VENDOR)/bin/chre \
